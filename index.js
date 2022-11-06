@@ -10,6 +10,10 @@ app.get("/",(req,res)=>{
     res.send("Hello from Backend")
 })
 
+app.get("/about",(req,res)=>{
+    res.send("about page")
+})
+
 app.listen(PORT,()=>{
     console.log(`Listening Port ${PORT}`)
 })
